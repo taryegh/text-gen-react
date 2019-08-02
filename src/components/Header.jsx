@@ -1,5 +1,4 @@
 import React from "react";
-import marMeme from "../imgs/meme.jpg";
 
 export default function Header() {
   return (
