@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/Header";
-import QuoteGenerator from "./components/QuoteGenerator";
+import TextGenerator from "./components/TextGenerator";
 
 export default function App() {
   return (
     <div>
       <Header />
-      <QuoteGenerator />
+      <TextGenerator />
     </div>
   );
 }

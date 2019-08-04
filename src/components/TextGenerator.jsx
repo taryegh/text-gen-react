@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class QuoteGenerator extends Component {
+export default class TextGenerator extends Component {
   constructor(props) {
     super(props);
 
