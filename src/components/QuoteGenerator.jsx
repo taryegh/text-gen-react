@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 
-export default class MemeGenerator extends Component {
+export default class QuoteGenerator extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
       topText: "",
       bottomText: "",
-      randomImg: "https://i.imgflip.com/1bim.jpg",
+      randomImg: "https://picsum.photos/id/168/800/600",
       allMemeImgs: ""
     };
 
@@ -16,10 +16,11 @@ export default class MemeGenerator extends Component {
   }
 
   componentDidMount() {
-    fetch("https://api.imgflip.com/get_memes")
+    fetch("https://picsum.photos/v2/list?page=2&limit=100")
       .then(response => response.json())
       .then(response => {
-        const { memes } = response.data;
+        console.log(response);
+        const memes = response;
         this.setState({
           allMemeImgs: memes
         });
@@ -37,7 +38,7 @@ export default class MemeGenerator extends Component {
     e.preventDefault();
 
     const rand = Math.floor(Math.random() * 100);
-    const img = this.state.allMemeImgs[rand].url;
+    const img = this.state.allMemeImgs[rand].download_url;
     this.setState({
       randomImg: img
     });
@@ -45,7 +46,7 @@ export default class MemeGenerator extends Component {
 
   render() {
     return (
-      <div className='cont'>
+      <div className="cont">
         <form onSubmit={this.genImg} className="meme-form">
           <input
             type="text"

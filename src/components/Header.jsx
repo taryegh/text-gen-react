@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <div>
       <header>
-        <p>Meme Generator</p>
+        <p>Quote Generator</p>
       </header>
     </div>
   );
