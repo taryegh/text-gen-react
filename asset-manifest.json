@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/quote-gen-react/static/css/main.7cbb31db.chunk.css",
-    "main.js": "/quote-gen-react/static/js/main.3888d038.chunk.js",
-    "main.js.map": "/quote-gen-react/static/js/main.3888d038.chunk.js.map",
-    "runtime~main.js": "/quote-gen-react/static/js/runtime~main.229d58a0.js",
-    "runtime~main.js.map": "/quote-gen-react/static/js/runtime~main.229d58a0.js.map",
-    "static/js/2.e2adb5f9.chunk.js": "/quote-gen-react/static/js/2.e2adb5f9.chunk.js",
-    "static/js/2.e2adb5f9.chunk.js.map": "/quote-gen-react/static/js/2.e2adb5f9.chunk.js.map",
-    "index.html": "/quote-gen-react/index.html",
-    "precache-manifest.a24cd87a7b95f138665b23ea5a34d015.js": "/quote-gen-react/precache-manifest.a24cd87a7b95f138665b23ea5a34d015.js",
-    "service-worker.js": "/quote-gen-react/service-worker.js",
-    "static/css/main.7cbb31db.chunk.css.map": "/quote-gen-react/static/css/main.7cbb31db.chunk.css.map"
+    "main.css": "/text-gen-react/static/css/main.7cbb31db.chunk.css",
+    "main.js": "/text-gen-react/static/js/main.5149dcb1.chunk.js",
+    "main.js.map": "/text-gen-react/static/js/main.5149dcb1.chunk.js.map",
+    "runtime~main.js": "/text-gen-react/static/js/runtime~main.6938b21a.js",
+    "runtime~main.js.map": "/text-gen-react/static/js/runtime~main.6938b21a.js.map",
+    "static/js/2.e2adb5f9.chunk.js": "/text-gen-react/static/js/2.e2adb5f9.chunk.js",
+    "static/js/2.e2adb5f9.chunk.js.map": "/text-gen-react/static/js/2.e2adb5f9.chunk.js.map",
+    "index.html": "/text-gen-react/index.html",
+    "precache-manifest.5e885837b5f001a3044d7ac03f98a433.js": "/text-gen-react/precache-manifest.5e885837b5f001a3044d7ac03f98a433.js",
+    "service-worker.js": "/text-gen-react/service-worker.js",
+    "static/css/main.7cbb31db.chunk.css.map": "/text-gen-react/static/css/main.7cbb31db.chunk.css.map"
   }
 }
