@@ -2,7 +2,7 @@
   "name": "meme-gen-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://taryegh.github.io/quote-gen-react",
+  "homepage": "https://taryegh.github.io/text-gen-react",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
